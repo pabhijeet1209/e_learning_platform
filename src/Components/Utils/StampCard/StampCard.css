@@ -1,0 +1,22 @@
+.stap-card {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    .stap-card-content {
+        border: "0.1px solid grey";
+        border-bottom: "4px solid grey";
+        position: absolute;
+        top: 58%;
+        background: "white";
+        border-radius: "10%";
+        transition: all 0.6s ease-in-out;
+    }
+}
+
+.stap-card:hover {
+    transition: box-shadow 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+
+}
+
+.stap-card:hover .stap-card-content {
+    top: 5%;
+    transform: translateY(18%);
+}

@@ -1,0 +1,52 @@
+.item .nav-item {
+    font-weight: 500;
+}
+
+.item .nav-item:hover {
+    padding: 6px;
+    border-radius: 30px;
+    color: white !important;
+    background-color: rgb(134, 154, 223);
+    transition: all ease-in-out 0.3s, background-color ease-in-out 0.3s;
+}
+
+.ant-menu-item-selected {
+    border-radius: 30px;
+    background-color: rgb(134, 154, 223);
+    color: rgb(134, 154, 223) !important;
+}
+
+:where(.css-dev-only-do-not-override-1uq9j6g).ant-menu-light.ant-menu-horizontal>.ant-menu-item::after,
+:where(.css-dev-only-do-not-override-1uq9j6g).ant-menu-light>.ant-menu.ant-menu-horizontal>.ant-menu-item::after,
+:where(.css-dev-only-do-not-override-1uq9j6g).ant-menu-light.ant-menu-horizontal>.ant-menu-submenu::after,
+:where(.css-dev-only-do-not-override-1uq9j6g).ant-menu-light>.ant-menu.ant-menu-horizontal>.ant-menu-submenu::after {
+    border: none;
+}
+
+
+.profile-card {
+    height: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(168, 182, 226, 0.349);
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px -12px;
+    padding-block: 10px;
+    width: 120px;
+    max-width: 100%;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    object-fit: cover;
+}
+
+.username {
+    color: rgb(108, 115, 138);
+    padding-left: 5px;
+    font-size: 12px;
+    font-weight: 300;
+}

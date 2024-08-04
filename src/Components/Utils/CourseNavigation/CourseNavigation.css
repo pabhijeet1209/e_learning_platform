@@ -1,0 +1,11 @@
+.course-navigation {
+    color: rgb(248, 246, 246);
+  
+    .title {
+      font-weight: 300 !important;
+    }
+  }
+  
+  .course-navigation::-webkit-scrollbar {
+    width: 3px;
+  }

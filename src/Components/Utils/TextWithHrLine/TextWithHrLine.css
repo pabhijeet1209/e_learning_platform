@@ -1,0 +1,28 @@
+.container {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .line {
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0.2));
+    top: 50%;
+  }
+  
+  .text {
+    position: relative;
+    display: inline-block;
+    background: #fff;
+    padding: 0 20px;
+    z-index: 1;
+  }
+  
+  .text span {
+    background: #fff;
+    padding: 0 10px;
+  }
